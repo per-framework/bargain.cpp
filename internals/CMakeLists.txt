@@ -1,0 +1,1 @@
+add_conventional_executable_tests(PRIVATE bargain_v0 testing_v1 dumpster_v1 std_thread)

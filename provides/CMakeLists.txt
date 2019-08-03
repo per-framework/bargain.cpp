@@ -1,0 +1,2 @@
+add_conventional_library(bargain_v0)
+target_link_libraries(bargain_v0 PUBLIC polyfill_v1 PRIVATE intrinsics_v1)

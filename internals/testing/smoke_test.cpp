@@ -7,7 +7,7 @@ using namespace bargain_v0;
 
 auto smoke_test = test([]() {
   STM::atom_t<int> xA(1);
-  STM::atom_t<float> yA(2);
+  STM::atom_t<float> yA(2.0f);
   STM::atom_t<int> zA(3);
 
   {
